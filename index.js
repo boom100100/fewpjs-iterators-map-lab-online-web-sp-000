@@ -22,7 +22,7 @@ const titleCased = () => {
   return wordsArray.map(x => x[0].toUpperCase() + x.substring(1)).join(" ");
   
 })
-  //return tutorials
+  return tutorials
 }
 
 
