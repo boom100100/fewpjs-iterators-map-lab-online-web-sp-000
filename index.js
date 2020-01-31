@@ -16,13 +16,8 @@ const tutorials = [
   
 }*/
   
-/*const titleCased = () => {
+const titleCased = () => {
   return tutorials
-}*/
-
- const titleCased = (e) => {
-  e[0].toUpperCase();
-  return tutorials;
 }
 
 
