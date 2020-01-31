@@ -21,6 +21,12 @@ const titleCased = () => {
   return tutorials
 }
 
+function titlecaseSentence(sentence) {
+  let wordsArray = sentence.split(" ");
+  let newSentence = wordsArray.map(x => x[0].toUpperCase() + x[1])
+  return student + " the wizard";
+}
+
 
 
 /*= 
