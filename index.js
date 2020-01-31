@@ -16,7 +16,9 @@ const titleCased = (e) => {
   
 }
   
-
+const titleCased = () => {
+  return tutorials
+}
 
 /*(e) => {
   e[0].toUpperCase();
