@@ -11,10 +11,10 @@ const tutorials = [
   'what is JSONP?'
 ];
 
-const titleCased = (e) => {
+/*const titleCased = (e) => {
   return tutorials;
   
-}
+}*/
   
 const titleCased = () => {
   return tutorials
