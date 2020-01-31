@@ -16,10 +16,7 @@ const tutorials = [
   
 }*/
   
-const titleCased = () => {
-  tutorials.map(x => titlecaseSentence(x))
-  return tutorials
-}
+const titleCased = tutorials.map(x => titlecaseSentence(x));
 
 function titlecaseSentence(sentence) {
   let wordsArray = sentence.split(" ");
