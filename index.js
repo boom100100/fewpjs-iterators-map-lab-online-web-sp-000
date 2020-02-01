@@ -39,5 +39,4 @@ function titlecaseSentence(sentence) {
 
 
 
-/*= 
-let mapped = ;*/
+/* let mapped = ;*/
