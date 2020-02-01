@@ -22,11 +22,10 @@ const titleCased = () => {
   return tutorials;
 }
 
-//const titleCased = () = ;
-
 function titlecaseSentence(sentence) {
   console.log("Testing log for result.");
   let wordsArray = sentence.split(" ");
+  console.log(wordsArray);
   return wordsArray.map(x => x.substring(0,1).toUpperCase() + x.substring(1)).join(" ");
   
 }
