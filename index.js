@@ -16,8 +16,7 @@ const tutorials = [
 const titleCased = () => {
   let tutorials2 = tutorials.map(function(sentence) {
   
-  //let wordsArray = ;
-
+  //split sentence into words. capitalize each word. join words into sentence.
   return sentence.split(" ").map(x => x = x.substring(0,1).toUpperCase() + x.substring(1)).join(" ");
   
 });
