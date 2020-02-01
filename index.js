@@ -28,12 +28,12 @@ function titlecaseSentence(sentence) {
   let wordsArray = sentence.split(" ");
   console.log(wordsArray);
   
-  return wordsArray.map(x => {
+  return wordsArray.map(x => x.substring(0,1).toUpperCase() + x.substring(1));/*{
     console.log(x);
     console.log(x.substring(0,1).toUpperCase() + x.substring(1));
-    return x.substring(0,1).toUpperCase() + x.substring(1);
+    x.substring(0,1).toUpperCase() + x.substring(1)
     
-  }
+  }*/
   
 }
 
