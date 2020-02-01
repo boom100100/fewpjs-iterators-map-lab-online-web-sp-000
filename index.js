@@ -18,8 +18,8 @@ const tutorials = [
   
   
 const titleCased = () => {
-  tutorials.map(titlecaseSentence;
-  
+  tutorials.map(titlecaseSentence);
+  return tutorials;
 }
 
 //const titleCased = () = ;
