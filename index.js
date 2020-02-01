@@ -19,7 +19,7 @@ const tutorials = [
   
 const titleCased = () => {
   let tutorials2 = tutorials.map(sentence => "Dummy data");
-  return tutorials;
+  return tutorials2;
 }
 
 function titlecaseSentence(sentence) {
