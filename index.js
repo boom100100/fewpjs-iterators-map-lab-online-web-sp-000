@@ -28,7 +28,7 @@ function titlecaseSentence(sentence) {
   console.log(wordsArray);
   return wordsArray.map(x => {
     console.log(x);
-    console.log(x.substring(0,1).toUpperCase() + x.substring(1)}).join(" "));
+    console.log(x.substring(0,1).toUpperCase() + x.substring(1)});
     return x.substring(0,1).toUpperCase() + x.substring(1)}).join(" ");
   
 }
