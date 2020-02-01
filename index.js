@@ -16,9 +16,9 @@ const tutorials = [
 const titleCased = () => {
   let tutorials2 = tutorials.map(function(sentence) {
   
-  let wordsArray = sentence.split(" ");
+  //let wordsArray = ;
 
-  return wordsArray.map(x => x = x.substring(0,1).toUpperCase() + x.substring(1)).join(" ");
+  return sentence.split(" ").map(x => x = x.substring(0,1).toUpperCase() + x.substring(1)).join(" ");
   
 });
 
