@@ -14,7 +14,13 @@ const tutorials = [
 
   
 const titleCased = () => {
-  let tutorials2 = tutorials.map(titlecaseSentence);
+  let tutorials2 = tutorials.map(function(sentence) {
+  
+  let wordsArray = sentence.split(" ");
+
+  return wordsArray.map(x => x = x.substring(0,1).toUpperCase() + x.substring(1)).join(" ");
+  
+});
   return tutorials2;
 }
 
