@@ -18,7 +18,7 @@ const tutorials = [
   
   
 const titleCased = () => {
-  tutorials.map(sentence => "Dummy data");
+  tutorials.map(sentence => sentence = "Dummy data");
   return tutorials;
 }
 
