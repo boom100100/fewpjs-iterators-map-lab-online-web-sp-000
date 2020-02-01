@@ -24,9 +24,9 @@ const titleCased = () => {
 
 function titlecaseSentence(sentence) {
   
-  console.log("Testing log for result.");
+  //console.log("Testing log for result.");
   let wordsArray = sentence.split(" ");
-  console.log(wordsArray);
+  //console.log(wordsArray);
   
   return wordsArray.map(x => x = x.substring(0,1).toUpperCase() + x.substring(1)).join(" ");/*{
     console.log(x);
