@@ -25,7 +25,3 @@ function titlecaseSentence(sentence) {
   return wordsArray.map(x => x = x.substring(0,1).toUpperCase() + x.substring(1)).join(" ");
   
 }
-
-
-
-/* let mapped = ;*/
