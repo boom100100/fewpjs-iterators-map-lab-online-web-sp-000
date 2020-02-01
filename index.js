@@ -23,13 +23,17 @@ const titleCased = () => {
 }
 
 function titlecaseSentence(sentence) {
+  
   console.log("Testing log for result.");
   let wordsArray = sentence.split(" ");
   console.log(wordsArray);
+  
   return wordsArray.map(x => {
     console.log(x);
     console.log(x.substring(0,1).toUpperCase() + x.substring(1));
-    return x.substring(0,1).toUpperCase() + x.substring(1)}).join(" ");
+    return x.substring(0,1).toUpperCase() + x.substring(1);
+    
+  }
   
 }
 
